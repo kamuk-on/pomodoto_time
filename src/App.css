@@ -1,38 +1,62 @@
-.App {
-  text-align: center;
+
+.pomodoroTimeBg {
+  background-color: #BA4949;
+  transition: all 500ms linear;
+}
+.shortBreakBg {
+  background-color: #38858a;
+  transition: all 500ms linear;
+}
+.longBreakBg {
+  background-color: #397097;
+  transition: all 500ms linear;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.pomodoroTimeTwoBg {
+  background-color: #C15C5C;
+  transition: all 500ms linear;
+}
+.shortBreakTwoBg {
+  background-color: #4C9196;
+  transition: all 500ms linear;
+}
+.longBreakTwoBg {
+  background-color: #4D7FA2;
+  transition: all 500ms linear;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.pomodoroTimeBtnColor {
+  color: #BA4949;
+  transition: all 50ms linear;
+}
+.shortBreakBtnColor {
+  color: #38858a;
+  transition: all 50ms linear;
+}
+.longBreakBtnColor {
+  color: #397097;
+  transition: all 50ms linear;
+}
+.pomodoroTimeBtnActive {
+  background-color: #A44E4E !important;
+  font-weight: bold;
+
+}
+.shortBreakBtnActive {
+  background-color: #417B80 !important;
+  font-weight: bold;
+}
+.longBreakBtnActive {
+  background-color: #426C8A !important;
+  font-weight: bold;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+
+.estructure{
+  max-width: 800px;
+  margin: auto;
+  padding-top: 10px;
 }

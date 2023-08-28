@@ -1,0 +1,17 @@
+
+.App-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.App-nav h1{
+    font-size: x-large;
+}
+
+.App-nav div{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    align-items: center;
+}
